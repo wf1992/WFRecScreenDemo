@@ -120,6 +120,8 @@ static WFCapture *_screenRecorder;
         [self cleanupWriter];
 //    }
 }
+
+//buffer写入成视频的方法
 -(void) writeVideoFrameAtTime:(CMTime)time addImage:(CGImageRef )newImage
 {
     //视频输入是否准备接受更多的媒体数据
@@ -164,12 +166,11 @@ static WFCapture *_screenRecorder;
 - (void)drawFrame
 {
     if (_isPause) {
+        //计算暂停的时间 并且在暂停的时候停止视频的写入
      _spaceDate=_spaceDate+1.0/self.frameRate;
      return;
      }
-//    if (_isPause) {
-//        return ;
-//    }
+
     if (!_writing) {
         [self performSelectorInBackground:@selector(getFrame) withObject:nil];
     }
@@ -177,7 +178,6 @@ static WFCapture *_screenRecorder;
 
 - (void)getFrame
 {
-
     if (!_writing) {
         _writing = true;
         size_t width  = CGBitmapContextGetWidth(context);
@@ -206,7 +206,7 @@ static WFCapture *_screenRecorder;
     }
 }
 
-
+//视频的存放地址（最好是放在caches里面，我这是项目需要才写的）
 - (NSString*)tempFilePath {
     
     NSFileManager * fileManager =[NSFileManager defaultManager];
@@ -240,7 +240,7 @@ static WFCapture *_screenRecorder;
     }
 }
 
-
+//初始化视频写入的类
 -(BOOL) setUpWriter {
     [self is64bit];
 
@@ -328,6 +328,7 @@ static WFCapture *_screenRecorder;
 	return YES;
 }
 
+//结束清除
 - (void) cleanupWriter {
    
 	avAdaptor = nil;
@@ -343,6 +344,7 @@ static WFCapture *_screenRecorder;
     //context=NULL;
 }
 
+//视频录制完毕调用
 - (void) completeRecordingSession {
      
 	

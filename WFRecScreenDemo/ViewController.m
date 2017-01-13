@@ -50,68 +50,8 @@
     isPauseing=NO;
 }
 
-//画图区域
--(void)setUpDrawView
-{
-    if (drawImageView) {
-        [drawImageView removeFromSuperview];
-        drawImageView =nil;
-    }
-    
-    drawImageView=[[writeViewPaint alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(backView.frame)+10, viewWidth,  viewHeight-CGRectGetMaxY(backView.frame)-10)];
-    
-    drawImageView.delegate=self;
-    drawImageView.backgroundColor=KSetColor(100, 170, 60);
-    drawImageView.colorResult =[UIColor whiteColor];
-    [self.view addSubview:drawImageView];
-}
 
-//功能按钮
--(void)setUpFunctionBtn
-{
-    timelable = [[UILabel alloc]initWithFrame:CGRectMake(0, self.navigationController.navigationBar.frame.size.height+20+5, viewWidth, 20)];
-    timelable.textAlignment =NSTextAlignmentCenter;
-    timelable.text = @"00:00:00";
-    timelable.textColor=[UIColor redColor];
-    [self.view addSubview:timelable];
-    
-    //背景
-    backView =[[UIView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(timelable.frame), viewWidth, 50)];
-    backView.backgroundColor=[UIColor whiteColor];
-    backView.userInteractionEnabled=YES;
-    [self.view addSubview:backView];
-    
-    //开始按钮
-    beginBtn =[UIButton buttonWithType:UIButtonTypeCustom];
-    beginBtn.frame = CGRectMake(10, 10, (viewWidth-40)/3, 30);
-    [beginBtn setTitle:@"开始" forState:UIControlStateNormal];
-    [beginBtn setBackgroundColor:MainColor];
-    [beginBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [beginBtn addTarget:self action:@selector(beginToRecVideo) forControlEvents:UIControlEventTouchUpInside];
-    [backView addSubview:beginBtn];
-    
-    //暂停按钮
-    pauseBtn =[UIButton buttonWithType:UIButtonTypeCustom];
-    pauseBtn.frame = CGRectMake(CGRectGetMaxX(beginBtn.frame)+10,10, (viewWidth-40)/3, 30);
-    [pauseBtn setTitle:@"暂停" forState:UIControlStateNormal];
-    [pauseBtn setBackgroundColor:MainColor];
-    [pauseBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [pauseBtn addTarget:self action:@selector(pauseVideo) forControlEvents:UIControlEventTouchUpInside];
-    [backView addSubview:pauseBtn];
-    
-    //结束按钮
-    UIButton * stopAndSaveBtn =[UIButton buttonWithType:UIButtonTypeCustom];
-    stopAndSaveBtn.frame = CGRectMake(CGRectGetMaxX(pauseBtn.frame)+10, 10, (viewWidth-40)/3, 30);
-    [stopAndSaveBtn setTitle:@"结束并保存" forState:UIControlStateNormal];
-    [stopAndSaveBtn setBackgroundColor:MainColor];
-    [stopAndSaveBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [stopAndSaveBtn addTarget:self action:@selector(stopAndSaveVideo) forControlEvents:UIControlEventTouchUpInside];
-    [backView addSubview:stopAndSaveBtn];
-    
-    [self.view addSubview:backView];
-    
-}
-
+#pragma mark - 开始录制视频
 -(void)beginToRecVideo
 {
     if (isRecing) {
@@ -125,13 +65,9 @@
     beginBtn.userInteractionEnabled=NO;
     [beginBtn setBackgroundColor:[UIColor lightGrayColor]];
 }
--(void)recordTimerWork
-{
-    timeCount++;
-    NSString * timeStr =[self timeFormatted:timeCount];
-    timelable.text =timeStr;
-}
 
+
+#pragma mark - 继续或者暂停录制
 -(void)pauseVideo
 {
     if (isRecing) {
@@ -161,8 +97,7 @@
     
 }
 
-
-
+#pragma mark - 结束录制视频
 -(void)stopAndSaveVideo
 {
     beginBtn.userInteractionEnabled=YES;
@@ -179,31 +114,6 @@
     }
 
 }
-
--(void)setUpNavi
-{
-    self.navigationController.navigationBar.tintColor = [UIColor clearColor];
-    self.navigationController.navigationBar.barTintColor=MainColor;
-    UIButton *rightBtn=[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 30)];
-    [rightBtn addTarget:self action:@selector(VideoBtnClicked)forControlEvents:UIControlEventTouchUpInside ];
-    [rightBtn setTitle:@"视频列表" forState:UIControlStateNormal];
-    [rightBtn.titleLabel setFont:[UIFont systemFontOfSize:15]];
-    UIBarButtonItem *rightBarButon=[[UIBarButtonItem alloc]initWithCustomView:rightBtn];
-    self.navigationItem.rightBarButtonItem=rightBarButon;
-    self.navigationController.navigationBar.titleTextAttributes=@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont boldSystemFontOfSize:18]};
-    self.navigationItem.title=@"录制视频";
-    
-}
-
-//进入下级页面显示录制的视频
--(void)VideoBtnClicked
-{
-    [self stopAndSaveVideo];
-
-    [self.navigationController pushViewController:[[VideoListController alloc]init] animated:YES];
-}
-
-
 
 #pragma mark----------------开始录制
 - (void)recordMustSuccess {
@@ -330,7 +240,99 @@
 {
 }
 
+#pragma mark----------------UI布局
+//画图区域
+-(void)setUpDrawView
+{
+    if (drawImageView) {
+        [drawImageView removeFromSuperview];
+        drawImageView =nil;
+    }
+    
+    drawImageView=[[writeViewPaint alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(backView.frame)+10, viewWidth,  viewHeight-CGRectGetMaxY(backView.frame)-10)];
+    
+    drawImageView.delegate=self;
+    drawImageView.backgroundColor=KSetColor(100, 170, 60);
+    drawImageView.colorResult =[UIColor whiteColor];
+    [self.view addSubview:drawImageView];
+}
 
+//功能按钮
+-(void)setUpFunctionBtn
+{
+    timelable = [[UILabel alloc]initWithFrame:CGRectMake(0, self.navigationController.navigationBar.frame.size.height+20+5, viewWidth, 20)];
+    timelable.textAlignment =NSTextAlignmentCenter;
+    timelable.text = @"00:00:00";
+    timelable.textColor=[UIColor redColor];
+    [self.view addSubview:timelable];
+    
+    //背景
+    backView =[[UIView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(timelable.frame), viewWidth, 50)];
+    backView.backgroundColor=[UIColor whiteColor];
+    backView.userInteractionEnabled=YES;
+    [self.view addSubview:backView];
+    
+    //开始按钮
+    beginBtn =[UIButton buttonWithType:UIButtonTypeCustom];
+    beginBtn.frame = CGRectMake(10, 10, (viewWidth-40)/3, 30);
+    [beginBtn setTitle:@"开始" forState:UIControlStateNormal];
+    [beginBtn setBackgroundColor:MainColor];
+    [beginBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [beginBtn addTarget:self action:@selector(beginToRecVideo) forControlEvents:UIControlEventTouchUpInside];
+    [backView addSubview:beginBtn];
+    
+    //暂停按钮
+    pauseBtn =[UIButton buttonWithType:UIButtonTypeCustom];
+    pauseBtn.frame = CGRectMake(CGRectGetMaxX(beginBtn.frame)+10,10, (viewWidth-40)/3, 30);
+    [pauseBtn setTitle:@"暂停" forState:UIControlStateNormal];
+    [pauseBtn setBackgroundColor:MainColor];
+    [pauseBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [pauseBtn addTarget:self action:@selector(pauseVideo) forControlEvents:UIControlEventTouchUpInside];
+    [backView addSubview:pauseBtn];
+    
+    //结束按钮
+    UIButton * stopAndSaveBtn =[UIButton buttonWithType:UIButtonTypeCustom];
+    stopAndSaveBtn.frame = CGRectMake(CGRectGetMaxX(pauseBtn.frame)+10, 10, (viewWidth-40)/3, 30);
+    [stopAndSaveBtn setTitle:@"结束并保存" forState:UIControlStateNormal];
+    [stopAndSaveBtn setBackgroundColor:MainColor];
+    [stopAndSaveBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [stopAndSaveBtn addTarget:self action:@selector(stopAndSaveVideo) forControlEvents:UIControlEventTouchUpInside];
+    [backView addSubview:stopAndSaveBtn];
+    
+    [self.view addSubview:backView];
+    
+}
+
+
+-(void)setUpNavi
+{
+    self.navigationController.navigationBar.tintColor = [UIColor clearColor];
+    self.navigationController.navigationBar.barTintColor=MainColor;
+    UIButton *rightBtn=[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 30)];
+    [rightBtn addTarget:self action:@selector(VideoBtnClicked)forControlEvents:UIControlEventTouchUpInside ];
+    [rightBtn setTitle:@"视频列表" forState:UIControlStateNormal];
+    [rightBtn.titleLabel setFont:[UIFont systemFontOfSize:15]];
+    UIBarButtonItem *rightBarButon=[[UIBarButtonItem alloc]initWithCustomView:rightBtn];
+    self.navigationItem.rightBarButtonItem=rightBarButon;
+    self.navigationController.navigationBar.titleTextAttributes=@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont boldSystemFontOfSize:18]};
+    self.navigationItem.title=@"录制视频";
+    
+}
+
+//进入下级页面显示录制的视频
+-(void)VideoBtnClicked
+{
+    [self stopAndSaveVideo];
+    
+    [self.navigationController pushViewController:[[VideoListController alloc]init] animated:YES];
+}
+
+-(void)recordTimerWork
+{
+    timeCount++;
+    NSString * timeStr =[self timeFormatted:timeCount];
+    timelable.text =timeStr;
+}
 
 - (NSString *)timeFormatted:(int)totalSeconds
 {

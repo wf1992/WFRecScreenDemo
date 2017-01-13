@@ -59,6 +59,7 @@
     }
 }
 
+#pragma mark - 录音继续
 -(void)resumeRecord
 {
     [self startRecord];
