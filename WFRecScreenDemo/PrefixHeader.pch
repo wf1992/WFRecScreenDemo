@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  WFRecScreenDemo
+//
+//  Created by 王飞 on 17/1/13.
+//  Copyright © 2017年 WF. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "ViewController.h"
+
+#define viewWidth self.view.frame.size.width
+#define viewHeight self.view.frame.size.height
+#define contentViewWidth self.contentView.frame.size.width
+#define contentViewHeight self.contentView.frame.size.height
+
+// 获得RGB颜色
+#define KSetColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define KSetString(str) NSLocalizedString(str, nil)
+#define MainColor [UIColor colorWithRed:(62)/255.0 green:(166)/255.0 blue:(233)/255.0 alpha:1.0]
+
+
+
+#endif
+
+
+#endif /* PrefixHeader_pch */

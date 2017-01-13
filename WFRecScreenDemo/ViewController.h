@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "handschriftViewEsayAnswer.h"
+#import "writeViewPaint.h"
+@interface ViewController : UIViewController<handschriftEsayAnswerDelegate,writePaintDelegate>
 
 
 @end
