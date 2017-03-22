@@ -6,6 +6,7 @@
 //  Copyright © 2016年 YJ. All rights reserved.
 //
 
+//视频播放
 #import "movieDetailController.h"
 
 @interface movieDetailController ()

@@ -6,6 +6,8 @@
 //  Copyright © 2017年 WF. All rights reserved.
 //
 
+
+//视频的列表页面
 #import "VideoListController.h"
 #import "VideoInfo.h"
 #import "VideoListCell.h"
@@ -169,6 +171,7 @@
     cell.nameLable.text = info.nameString;
     cell.sizeLable.text = info.sizeString;
     cell.iconImageView.image = info.image;
+    //长按删除手势
     [cell setCallbackLongPress:^(NSInteger tag) {
         [self longPressCell:tag];
     }];

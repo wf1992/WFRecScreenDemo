@@ -25,48 +25,28 @@
 		7B0550A21E286DF2001C37A4 /* WFCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B05509F1E286DF2001C37A4 /* WFCapture.m */; };
 		7B0550A31E286DF2001C37A4 /* WFCaptureUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550A11E286DF2001C37A4 /* WFCaptureUtilities.m */; };
 		7B0550A61E28710B001C37A4 /* VideoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550A51E28710B001C37A4 /* VideoListController.m */; };
-		7B0550E81E287A6A001C37A4 /* checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550A91E287A6A001C37A4 /* checkerboard.png */; };
-		7B0550E91E287A6A001C37A4 /* checkerboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550AA1E287A6A001C37A4 /* checkerboard@2x.png */; };
-		7B0550EA1E287A6A001C37A4 /* colorPickerKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550AB1E287A6A001C37A4 /* colorPickerKnob.png */; };
-		7B0550EB1E287A6A001C37A4 /* colorPickerKnob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550AC1E287A6A001C37A4 /* colorPickerKnob@2x.png */; };
-		7B0550EC1E287A6A001C37A4 /* HSV.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550AD1E287A6A001C37A4 /* HSV.c */; };
-		7B0550ED1E287A6A001C37A4 /* KZColorCompareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550B01E287A6A001C37A4 /* KZColorCompareView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7B0550EE1E287A6A001C37A4 /* KZColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550B21E287A6A001C37A4 /* KZColorPicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7B0550EF1E287A6A001C37A4 /* KZColorPickerAlphaSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550B41E287A6A001C37A4 /* KZColorPickerAlphaSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7B0550F01E287A6A001C37A4 /* KZColorPickerBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550B61E287A6A001C37A4 /* KZColorPickerBrightnessSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7B0550F11E287A6A001C37A4 /* KZColorPickerHSWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550B81E287A6A001C37A4 /* KZColorPickerHSWheel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7B0550F21E287A6A001C37A4 /* KZColorPickerSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550BA1E287A6A001C37A4 /* KZColorPickerSwatchView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7B0550F31E287A6A001C37A4 /* KZUnitSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550BC1E287A6A001C37A4 /* KZUnitSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7B0550F41E287A6A001C37A4 /* pickerColorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550BD1E287A6A001C37A4 /* pickerColorWheel.png */; };
-		7B0550F51E287A6A001C37A4 /* pickerColorWheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550BE1E287A6A001C37A4 /* pickerColorWheel@2x.png */; };
-		7B0550F61E287A6A001C37A4 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550C01E287A6A001C37A4 /* UIColor-Expanded.m */; };
-		7B0550F71E287A6A001C37A4 /* drawViewPaint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550C21E287A6A001C37A4 /* drawViewPaint.m */; };
-		7B0550F81E287A6A001C37A4 /* centerBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550C51E287A6A001C37A4 /* centerBtn.m */; };
-		7B0550F91E287A6A001C37A4 /* colorWidthBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550C71E287A6A001C37A4 /* colorWidthBtn.m */; };
-		7B0550FA1E287A6A001C37A4 /* colorWidthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550C91E287A6A001C37A4 /* colorWidthView.m */; };
-		7B0550FB1E287A6A001C37A4 /* handleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550CB1E287A6A001C37A4 /* handleft.png */; };
-		7B0550FC1E287A6A001C37A4 /* handleft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550CC1E287A6A001C37A4 /* handleft@2x.png */; };
-		7B0550FD1E287A6A001C37A4 /* handleft_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550CD1E287A6A001C37A4 /* handleft_N.png */; };
-		7B0550FE1E287A6A001C37A4 /* handleft_N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550CE1E287A6A001C37A4 /* handleft_N@2x.png */; };
-		7B0550FF1E287A6A001C37A4 /* handleft_Y.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550CF1E287A6A001C37A4 /* handleft_Y.png */; };
-		7B0551001E287A6A001C37A4 /* handleft_Y@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550D01E287A6A001C37A4 /* handleft_Y@2x.png */; };
-		7B0551011E287A6A001C37A4 /* handright.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550D11E287A6A001C37A4 /* handright.png */; };
-		7B0551021E287A6A001C37A4 /* handright@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550D21E287A6A001C37A4 /* handright@2x.png */; };
-		7B0551031E287A6A001C37A4 /* handright_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550D31E287A6A001C37A4 /* handright_N.png */; };
-		7B0551041E287A6A001C37A4 /* handright_N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550D41E287A6A001C37A4 /* handright_N@2x.png */; };
-		7B0551051E287A6A001C37A4 /* handright_Y.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550D51E287A6A001C37A4 /* handright_Y.png */; };
-		7B0551061E287A6A001C37A4 /* handright_Y@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0550D61E287A6A001C37A4 /* handright_Y@2x.png */; };
-		7B0551071E287A6A001C37A4 /* handschriftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550D81E287A6A001C37A4 /* handschriftView.m */; };
-		7B0551081E287A6A001C37A4 /* handschriftViewEsayAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550DA1E287A6A001C37A4 /* handschriftViewEsayAnswer.m */; };
-		7B0551091E287A6A001C37A4 /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550DC1E287A6A001C37A4 /* Palette.m */; };
-		7B05510A1E287A6A001C37A4 /* PaletteEsayAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550DE1E287A6A001C37A4 /* PaletteEsayAnswer.m */; };
-		7B05510B1E287A6A001C37A4 /* showLinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550E01E287A6A001C37A4 /* showLinesView.m */; };
-		7B05510C1E287A6A001C37A4 /* NYPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550E31E287A6A001C37A4 /* NYPopover.m */; };
-		7B05510D1E287A6A001C37A4 /* NYSliderPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550E51E287A6A001C37A4 /* NYSliderPopover.m */; };
-		7B05510E1E287A6A001C37A4 /* writeViewPaint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0550E71E287A6A001C37A4 /* writeViewPaint.m */; };
 		7B0551111E288465001C37A4 /* VideoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0551101E288465001C37A4 /* VideoListCell.m */; };
 		7B0551141E288473001C37A4 /* VideoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0551131E288473001C37A4 /* VideoInfo.m */; };
 		7B0551171E288519001C37A4 /* movieDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0551161E288519001C37A4 /* movieDetailController.m */; };
+		7B9D48A91E825D3600668DC7 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D487E1E825D3600668DC7 /* ACEDrawingTools.m */; };
+		7B9D48AA1E825D3600668DC7 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48801E825D3600668DC7 /* ACEDrawingView.m */; };
+		7B9D48AB1E825D3600668DC7 /* BlazeiceDooleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48821E825D3600668DC7 /* BlazeiceDooleView.m */; };
+		7B9D48AC1E825D3600668DC7 /* BlazeiceCurledViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48871E825D3600668DC7 /* BlazeiceCurledViewBase.m */; };
+		7B9D48AD1E825D3600668DC7 /* BlazeiceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D488A1E825D3600668DC7 /* BlazeiceObject.m */; };
+		7B9D48AE1E825D3600668DC7 /* BlazeicePlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D488C1E825D3600668DC7 /* BlazeicePlist.m */; };
+		7B9D48AF1E825D3600668DC7 /* BlazeiceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D488E1E825D3600668DC7 /* BlazeiceUtils.m */; };
+		7B9D48B01E825D3600668DC7 /* BlazeiceUIControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48921E825D3600668DC7 /* BlazeiceUIControl.m */; };
+		7B9D48B11E825D3600668DC7 /* BlazeiceUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48941E825D3600668DC7 /* BlazeiceUIView.m */; };
+		7B9D48B21E825D3600668DC7 /* KTouchPointerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48961E825D3600668DC7 /* KTouchPointerWindow.m */; };
+		7B9D48B31E825D3600668DC7 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48981E825D3600668DC7 /* NSTimer+Blocks.m */; };
+		7B9D48B41E825D3600668DC7 /* SRScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D489A1E825D3600668DC7 /* SRScreenRecorder.m */; };
+		7B9D48B51E825D3600668DC7 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D489C1E825D3600668DC7 /* UIColor+Extend.m */; };
+		7B9D48B61E825D3600668DC7 /* UIImage-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D489E1E825D3600668DC7 /* UIImage-Extensions.m */; };
+		7B9D48B71E825D3600668DC7 /* UIView+Curled.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48A01E825D3600668DC7 /* UIView+Curled.m */; };
+		7B9D48B81E825D3600668DC7 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48A21E825D3600668DC7 /* UIView+UIImage.m */; };
+		7B9D48B91E825D3600668DC7 /* UIView+ZXQuartz.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48A41E825D3600668DC7 /* UIView+ZXQuartz.m */; };
+		7B9D48BA1E825D3600668DC7 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48A61E825D3600668DC7 /* UncaughtExceptionHandler.m */; };
+		7B9D48BB1E825D3600668DC7 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D48A81E825D3600668DC7 /* Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,72 +100,54 @@
 		7B0550A11E286DF2001C37A4 /* WFCaptureUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCaptureUtilities.m; sourceTree = "<group>"; };
 		7B0550A41E28710B001C37A4 /* VideoListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoListController.h; sourceTree = "<group>"; };
 		7B0550A51E28710B001C37A4 /* VideoListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoListController.m; sourceTree = "<group>"; };
-		7B0550A91E287A6A001C37A4 /* checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkerboard.png; sourceTree = "<group>"; };
-		7B0550AA1E287A6A001C37A4 /* checkerboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkerboard@2x.png"; sourceTree = "<group>"; };
-		7B0550AB1E287A6A001C37A4 /* colorPickerKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorPickerKnob.png; sourceTree = "<group>"; };
-		7B0550AC1E287A6A001C37A4 /* colorPickerKnob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorPickerKnob@2x.png"; sourceTree = "<group>"; };
-		7B0550AD1E287A6A001C37A4 /* HSV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HSV.c; sourceTree = "<group>"; };
-		7B0550AE1E287A6A001C37A4 /* HSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSV.h; sourceTree = "<group>"; };
-		7B0550AF1E287A6A001C37A4 /* KZColorCompareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorCompareView.h; sourceTree = "<group>"; };
-		7B0550B01E287A6A001C37A4 /* KZColorCompareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorCompareView.m; sourceTree = "<group>"; };
-		7B0550B11E287A6A001C37A4 /* KZColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPicker.h; sourceTree = "<group>"; };
-		7B0550B21E287A6A001C37A4 /* KZColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPicker.m; sourceTree = "<group>"; };
-		7B0550B31E287A6A001C37A4 /* KZColorPickerAlphaSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerAlphaSlider.h; sourceTree = "<group>"; };
-		7B0550B41E287A6A001C37A4 /* KZColorPickerAlphaSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerAlphaSlider.m; sourceTree = "<group>"; };
-		7B0550B51E287A6A001C37A4 /* KZColorPickerBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerBrightnessSlider.h; sourceTree = "<group>"; };
-		7B0550B61E287A6A001C37A4 /* KZColorPickerBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerBrightnessSlider.m; sourceTree = "<group>"; };
-		7B0550B71E287A6A001C37A4 /* KZColorPickerHSWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerHSWheel.h; sourceTree = "<group>"; };
-		7B0550B81E287A6A001C37A4 /* KZColorPickerHSWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerHSWheel.m; sourceTree = "<group>"; };
-		7B0550B91E287A6A001C37A4 /* KZColorPickerSwatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerSwatchView.h; sourceTree = "<group>"; };
-		7B0550BA1E287A6A001C37A4 /* KZColorPickerSwatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerSwatchView.m; sourceTree = "<group>"; };
-		7B0550BB1E287A6A001C37A4 /* KZUnitSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZUnitSlider.h; sourceTree = "<group>"; };
-		7B0550BC1E287A6A001C37A4 /* KZUnitSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZUnitSlider.m; sourceTree = "<group>"; };
-		7B0550BD1E287A6A001C37A4 /* pickerColorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerColorWheel.png; sourceTree = "<group>"; };
-		7B0550BE1E287A6A001C37A4 /* pickerColorWheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pickerColorWheel@2x.png"; sourceTree = "<group>"; };
-		7B0550BF1E287A6A001C37A4 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
-		7B0550C01E287A6A001C37A4 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
-		7B0550C11E287A6A001C37A4 /* drawViewPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawViewPaint.h; sourceTree = "<group>"; };
-		7B0550C21E287A6A001C37A4 /* drawViewPaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawViewPaint.m; sourceTree = "<group>"; };
-		7B0550C41E287A6A001C37A4 /* centerBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = centerBtn.h; sourceTree = "<group>"; };
-		7B0550C51E287A6A001C37A4 /* centerBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = centerBtn.m; sourceTree = "<group>"; };
-		7B0550C61E287A6A001C37A4 /* colorWidthBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorWidthBtn.h; sourceTree = "<group>"; };
-		7B0550C71E287A6A001C37A4 /* colorWidthBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = colorWidthBtn.m; sourceTree = "<group>"; };
-		7B0550C81E287A6A001C37A4 /* colorWidthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorWidthView.h; sourceTree = "<group>"; };
-		7B0550C91E287A6A001C37A4 /* colorWidthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = colorWidthView.m; sourceTree = "<group>"; };
-		7B0550CB1E287A6A001C37A4 /* handleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handleft.png; sourceTree = "<group>"; };
-		7B0550CC1E287A6A001C37A4 /* handleft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handleft@2x.png"; sourceTree = "<group>"; };
-		7B0550CD1E287A6A001C37A4 /* handleft_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handleft_N.png; sourceTree = "<group>"; };
-		7B0550CE1E287A6A001C37A4 /* handleft_N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handleft_N@2x.png"; sourceTree = "<group>"; };
-		7B0550CF1E287A6A001C37A4 /* handleft_Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handleft_Y.png; sourceTree = "<group>"; };
-		7B0550D01E287A6A001C37A4 /* handleft_Y@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handleft_Y@2x.png"; sourceTree = "<group>"; };
-		7B0550D11E287A6A001C37A4 /* handright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handright.png; sourceTree = "<group>"; };
-		7B0550D21E287A6A001C37A4 /* handright@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handright@2x.png"; sourceTree = "<group>"; };
-		7B0550D31E287A6A001C37A4 /* handright_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handright_N.png; sourceTree = "<group>"; };
-		7B0550D41E287A6A001C37A4 /* handright_N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handright_N@2x.png"; sourceTree = "<group>"; };
-		7B0550D51E287A6A001C37A4 /* handright_Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handright_Y.png; sourceTree = "<group>"; };
-		7B0550D61E287A6A001C37A4 /* handright_Y@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handright_Y@2x.png"; sourceTree = "<group>"; };
-		7B0550D71E287A6A001C37A4 /* handschriftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handschriftView.h; sourceTree = "<group>"; };
-		7B0550D81E287A6A001C37A4 /* handschriftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = handschriftView.m; sourceTree = "<group>"; };
-		7B0550D91E287A6A001C37A4 /* handschriftViewEsayAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handschriftViewEsayAnswer.h; sourceTree = "<group>"; };
-		7B0550DA1E287A6A001C37A4 /* handschriftViewEsayAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = handschriftViewEsayAnswer.m; sourceTree = "<group>"; };
-		7B0550DB1E287A6A001C37A4 /* Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
-		7B0550DC1E287A6A001C37A4 /* Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palette.m; sourceTree = "<group>"; };
-		7B0550DD1E287A6A001C37A4 /* PaletteEsayAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteEsayAnswer.h; sourceTree = "<group>"; };
-		7B0550DE1E287A6A001C37A4 /* PaletteEsayAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteEsayAnswer.m; sourceTree = "<group>"; };
-		7B0550DF1E287A6A001C37A4 /* showLinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showLinesView.h; sourceTree = "<group>"; };
-		7B0550E01E287A6A001C37A4 /* showLinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showLinesView.m; sourceTree = "<group>"; };
-		7B0550E21E287A6A001C37A4 /* NYPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPopover.h; sourceTree = "<group>"; };
-		7B0550E31E287A6A001C37A4 /* NYPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPopover.m; sourceTree = "<group>"; };
-		7B0550E41E287A6A001C37A4 /* NYSliderPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSliderPopover.h; sourceTree = "<group>"; };
-		7B0550E51E287A6A001C37A4 /* NYSliderPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSliderPopover.m; sourceTree = "<group>"; };
-		7B0550E61E287A6A001C37A4 /* writeViewPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writeViewPaint.h; sourceTree = "<group>"; };
-		7B0550E71E287A6A001C37A4 /* writeViewPaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = writeViewPaint.m; sourceTree = "<group>"; };
 		7B05510F1E288465001C37A4 /* VideoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoListCell.h; sourceTree = "<group>"; };
 		7B0551101E288465001C37A4 /* VideoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoListCell.m; sourceTree = "<group>"; };
 		7B0551121E288473001C37A4 /* VideoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoInfo.h; sourceTree = "<group>"; };
 		7B0551131E288473001C37A4 /* VideoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoInfo.m; sourceTree = "<group>"; };
 		7B0551151E288519001C37A4 /* movieDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movieDetailController.h; sourceTree = "<group>"; };
 		7B0551161E288519001C37A4 /* movieDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = movieDetailController.m; sourceTree = "<group>"; };
+		7B9D487D1E825D3600668DC7 /* ACEDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingTools.h; sourceTree = "<group>"; };
+		7B9D487E1E825D3600668DC7 /* ACEDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingTools.m; sourceTree = "<group>"; };
+		7B9D487F1E825D3600668DC7 /* ACEDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingView.h; sourceTree = "<group>"; };
+		7B9D48801E825D3600668DC7 /* ACEDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingView.m; sourceTree = "<group>"; };
+		7B9D48811E825D3600668DC7 /* BlazeiceDooleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlazeiceDooleView.h; sourceTree = "<group>"; };
+		7B9D48821E825D3600668DC7 /* BlazeiceDooleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlazeiceDooleView.m; sourceTree = "<group>"; };
+		7B9D48831E825D3600668DC7 /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		7B9D48851E825D3600668DC7 /* BlazeiceCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlazeiceCommon.h; sourceTree = "<group>"; };
+		7B9D48861E825D3600668DC7 /* BlazeiceCurledViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlazeiceCurledViewBase.h; sourceTree = "<group>"; };
+		7B9D48871E825D3600668DC7 /* BlazeiceCurledViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlazeiceCurledViewBase.m; sourceTree = "<group>"; };
+		7B9D48881E825D3600668DC7 /* BlazeiceDEBUG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlazeiceDEBUG.h; sourceTree = "<group>"; };
+		7B9D48891E825D3600668DC7 /* BlazeiceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlazeiceObject.h; sourceTree = "<group>"; };
+		7B9D488A1E825D3600668DC7 /* BlazeiceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlazeiceObject.m; sourceTree = "<group>"; };
+		7B9D488B1E825D3600668DC7 /* BlazeicePlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlazeicePlist.h; sourceTree = "<group>"; };
+		7B9D488C1E825D3600668DC7 /* BlazeicePlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlazeicePlist.m; sourceTree = "<group>"; };
+		7B9D488D1E825D3600668DC7 /* BlazeiceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlazeiceUtils.h; sourceTree = "<group>"; };
+		7B9D488E1E825D3600668DC7 /* BlazeiceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlazeiceUtils.m; sourceTree = "<group>"; };
+		7B9D48901E825D3600668DC7 /* BlazeiceBlockUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlazeiceBlockUI.h; sourceTree = "<group>"; };
+		7B9D48911E825D3600668DC7 /* BlazeiceUIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlazeiceUIControl.h; sourceTree = "<group>"; };
+		7B9D48921E825D3600668DC7 /* BlazeiceUIControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlazeiceUIControl.m; sourceTree = "<group>"; };
+		7B9D48931E825D3600668DC7 /* BlazeiceUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlazeiceUIView.h; sourceTree = "<group>"; };
+		7B9D48941E825D3600668DC7 /* BlazeiceUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlazeiceUIView.m; sourceTree = "<group>"; };
+		7B9D48951E825D3600668DC7 /* KTouchPointerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTouchPointerWindow.h; sourceTree = "<group>"; };
+		7B9D48961E825D3600668DC7 /* KTouchPointerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTouchPointerWindow.m; sourceTree = "<group>"; };
+		7B9D48971E825D3600668DC7 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
+		7B9D48981E825D3600668DC7 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		7B9D48991E825D3600668DC7 /* SRScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRScreenRecorder.h; sourceTree = "<group>"; };
+		7B9D489A1E825D3600668DC7 /* SRScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRScreenRecorder.m; sourceTree = "<group>"; };
+		7B9D489B1E825D3600668DC7 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		7B9D489C1E825D3600668DC7 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		7B9D489D1E825D3600668DC7 /* UIImage-Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Extensions.h"; sourceTree = "<group>"; };
+		7B9D489E1E825D3600668DC7 /* UIImage-Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Extensions.m"; sourceTree = "<group>"; };
+		7B9D489F1E825D3600668DC7 /* UIView+Curled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Curled.h"; sourceTree = "<group>"; };
+		7B9D48A01E825D3600668DC7 /* UIView+Curled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Curled.m"; sourceTree = "<group>"; };
+		7B9D48A11E825D3600668DC7 /* UIView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImage.h"; sourceTree = "<group>"; };
+		7B9D48A21E825D3600668DC7 /* UIView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
+		7B9D48A31E825D3600668DC7 /* UIView+ZXQuartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXQuartz.h"; sourceTree = "<group>"; };
+		7B9D48A41E825D3600668DC7 /* UIView+ZXQuartz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXQuartz.m"; sourceTree = "<group>"; };
+		7B9D48A51E825D3600668DC7 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		7B9D48A61E825D3600668DC7 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		7B9D48A71E825D3600668DC7 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		7B9D48A81E825D3600668DC7 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,100 +308,74 @@
 		7B0550A71E287A23001C37A4 /* DrawView */ = {
 			isa = PBXGroup;
 			children = (
-				7B0550A81E287A6A001C37A4 /* ColorPicker */,
-				7B0550C11E287A6A001C37A4 /* drawViewPaint.h */,
-				7B0550C21E287A6A001C37A4 /* drawViewPaint.m */,
-				7B0550C31E287A6A001C37A4 /* Handschrift */,
-				7B0550E61E287A6A001C37A4 /* writeViewPaint.h */,
-				7B0550E71E287A6A001C37A4 /* writeViewPaint.m */,
+				7B9D487C1E825D3600668DC7 /* drawView */,
+				7B9D48841E825D3600668DC7 /* LZXUtils */,
 			);
 			path = DrawView;
 			sourceTree = "<group>";
 		};
-		7B0550A81E287A6A001C37A4 /* ColorPicker */ = {
+		7B9D487C1E825D3600668DC7 /* drawView */ = {
 			isa = PBXGroup;
 			children = (
-				7B0550A91E287A6A001C37A4 /* checkerboard.png */,
-				7B0550AA1E287A6A001C37A4 /* checkerboard@2x.png */,
-				7B0550AB1E287A6A001C37A4 /* colorPickerKnob.png */,
-				7B0550AC1E287A6A001C37A4 /* colorPickerKnob@2x.png */,
-				7B0550AD1E287A6A001C37A4 /* HSV.c */,
-				7B0550AE1E287A6A001C37A4 /* HSV.h */,
-				7B0550AF1E287A6A001C37A4 /* KZColorCompareView.h */,
-				7B0550B01E287A6A001C37A4 /* KZColorCompareView.m */,
-				7B0550B11E287A6A001C37A4 /* KZColorPicker.h */,
-				7B0550B21E287A6A001C37A4 /* KZColorPicker.m */,
-				7B0550B31E287A6A001C37A4 /* KZColorPickerAlphaSlider.h */,
-				7B0550B41E287A6A001C37A4 /* KZColorPickerAlphaSlider.m */,
-				7B0550B51E287A6A001C37A4 /* KZColorPickerBrightnessSlider.h */,
-				7B0550B61E287A6A001C37A4 /* KZColorPickerBrightnessSlider.m */,
-				7B0550B71E287A6A001C37A4 /* KZColorPickerHSWheel.h */,
-				7B0550B81E287A6A001C37A4 /* KZColorPickerHSWheel.m */,
-				7B0550B91E287A6A001C37A4 /* KZColorPickerSwatchView.h */,
-				7B0550BA1E287A6A001C37A4 /* KZColorPickerSwatchView.m */,
-				7B0550BB1E287A6A001C37A4 /* KZUnitSlider.h */,
-				7B0550BC1E287A6A001C37A4 /* KZUnitSlider.m */,
-				7B0550BD1E287A6A001C37A4 /* pickerColorWheel.png */,
-				7B0550BE1E287A6A001C37A4 /* pickerColorWheel@2x.png */,
-				7B0550BF1E287A6A001C37A4 /* UIColor-Expanded.h */,
-				7B0550C01E287A6A001C37A4 /* UIColor-Expanded.m */,
+				7B9D487D1E825D3600668DC7 /* ACEDrawingTools.h */,
+				7B9D487E1E825D3600668DC7 /* ACEDrawingTools.m */,
+				7B9D487F1E825D3600668DC7 /* ACEDrawingView.h */,
+				7B9D48801E825D3600668DC7 /* ACEDrawingView.m */,
+				7B9D48811E825D3600668DC7 /* BlazeiceDooleView.h */,
+				7B9D48821E825D3600668DC7 /* BlazeiceDooleView.m */,
+				7B9D48831E825D3600668DC7 /* Mark.h */,
 			);
-			path = ColorPicker;
+			path = drawView;
 			sourceTree = "<group>";
 		};
-		7B0550C31E287A6A001C37A4 /* Handschrift */ = {
+		7B9D48841E825D3600668DC7 /* LZXUtils */ = {
 			isa = PBXGroup;
 			children = (
-				7B0550C41E287A6A001C37A4 /* centerBtn.h */,
-				7B0550C51E287A6A001C37A4 /* centerBtn.m */,
-				7B0550C61E287A6A001C37A4 /* colorWidthBtn.h */,
-				7B0550C71E287A6A001C37A4 /* colorWidthBtn.m */,
-				7B0550C81E287A6A001C37A4 /* colorWidthView.h */,
-				7B0550C91E287A6A001C37A4 /* colorWidthView.m */,
-				7B0550CA1E287A6A001C37A4 /* handschriftImage */,
-				7B0550D71E287A6A001C37A4 /* handschriftView.h */,
-				7B0550D81E287A6A001C37A4 /* handschriftView.m */,
-				7B0550D91E287A6A001C37A4 /* handschriftViewEsayAnswer.h */,
-				7B0550DA1E287A6A001C37A4 /* handschriftViewEsayAnswer.m */,
-				7B0550DB1E287A6A001C37A4 /* Palette.h */,
-				7B0550DC1E287A6A001C37A4 /* Palette.m */,
-				7B0550DD1E287A6A001C37A4 /* PaletteEsayAnswer.h */,
-				7B0550DE1E287A6A001C37A4 /* PaletteEsayAnswer.m */,
-				7B0550DF1E287A6A001C37A4 /* showLinesView.h */,
-				7B0550E01E287A6A001C37A4 /* showLinesView.m */,
-				7B0550E11E287A6A001C37A4 /* sliderView */,
+				7B9D48851E825D3600668DC7 /* BlazeiceCommon.h */,
+				7B9D48861E825D3600668DC7 /* BlazeiceCurledViewBase.h */,
+				7B9D48871E825D3600668DC7 /* BlazeiceCurledViewBase.m */,
+				7B9D48881E825D3600668DC7 /* BlazeiceDEBUG.h */,
+				7B9D48891E825D3600668DC7 /* BlazeiceObject.h */,
+				7B9D488A1E825D3600668DC7 /* BlazeiceObject.m */,
+				7B9D488B1E825D3600668DC7 /* BlazeicePlist.h */,
+				7B9D488C1E825D3600668DC7 /* BlazeicePlist.m */,
+				7B9D488D1E825D3600668DC7 /* BlazeiceUtils.h */,
+				7B9D488E1E825D3600668DC7 /* BlazeiceUtils.m */,
+				7B9D488F1E825D3600668DC7 /* BlockUI */,
+				7B9D48951E825D3600668DC7 /* KTouchPointerWindow.h */,
+				7B9D48961E825D3600668DC7 /* KTouchPointerWindow.m */,
+				7B9D48971E825D3600668DC7 /* NSTimer+Blocks.h */,
+				7B9D48981E825D3600668DC7 /* NSTimer+Blocks.m */,
+				7B9D48991E825D3600668DC7 /* SRScreenRecorder.h */,
+				7B9D489A1E825D3600668DC7 /* SRScreenRecorder.m */,
+				7B9D489B1E825D3600668DC7 /* UIColor+Extend.h */,
+				7B9D489C1E825D3600668DC7 /* UIColor+Extend.m */,
+				7B9D489D1E825D3600668DC7 /* UIImage-Extensions.h */,
+				7B9D489E1E825D3600668DC7 /* UIImage-Extensions.m */,
+				7B9D489F1E825D3600668DC7 /* UIView+Curled.h */,
+				7B9D48A01E825D3600668DC7 /* UIView+Curled.m */,
+				7B9D48A11E825D3600668DC7 /* UIView+UIImage.h */,
+				7B9D48A21E825D3600668DC7 /* UIView+UIImage.m */,
+				7B9D48A31E825D3600668DC7 /* UIView+ZXQuartz.h */,
+				7B9D48A41E825D3600668DC7 /* UIView+ZXQuartz.m */,
+				7B9D48A51E825D3600668DC7 /* UncaughtExceptionHandler.h */,
+				7B9D48A61E825D3600668DC7 /* UncaughtExceptionHandler.m */,
+				7B9D48A71E825D3600668DC7 /* Utilities.h */,
+				7B9D48A81E825D3600668DC7 /* Utilities.m */,
 			);
-			path = Handschrift;
+			path = LZXUtils;
 			sourceTree = "<group>";
 		};
-		7B0550CA1E287A6A001C37A4 /* handschriftImage */ = {
+		7B9D488F1E825D3600668DC7 /* BlockUI */ = {
 			isa = PBXGroup;
 			children = (
-				7B0550CB1E287A6A001C37A4 /* handleft.png */,
-				7B0550CC1E287A6A001C37A4 /* handleft@2x.png */,
-				7B0550CD1E287A6A001C37A4 /* handleft_N.png */,
-				7B0550CE1E287A6A001C37A4 /* handleft_N@2x.png */,
-				7B0550CF1E287A6A001C37A4 /* handleft_Y.png */,
-				7B0550D01E287A6A001C37A4 /* handleft_Y@2x.png */,
-				7B0550D11E287A6A001C37A4 /* handright.png */,
-				7B0550D21E287A6A001C37A4 /* handright@2x.png */,
-				7B0550D31E287A6A001C37A4 /* handright_N.png */,
-				7B0550D41E287A6A001C37A4 /* handright_N@2x.png */,
-				7B0550D51E287A6A001C37A4 /* handright_Y.png */,
-				7B0550D61E287A6A001C37A4 /* handright_Y@2x.png */,
+				7B9D48901E825D3600668DC7 /* BlazeiceBlockUI.h */,
+				7B9D48911E825D3600668DC7 /* BlazeiceUIControl.h */,
+				7B9D48921E825D3600668DC7 /* BlazeiceUIControl.m */,
+				7B9D48931E825D3600668DC7 /* BlazeiceUIView.h */,
+				7B9D48941E825D3600668DC7 /* BlazeiceUIView.m */,
 			);
-			path = handschriftImage;
-			sourceTree = "<group>";
-		};
-		7B0550E11E287A6A001C37A4 /* sliderView */ = {
-			isa = PBXGroup;
-			children = (
-				7B0550E21E287A6A001C37A4 /* NYPopover.h */,
-				7B0550E31E287A6A001C37A4 /* NYPopover.m */,
-				7B0550E41E287A6A001C37A4 /* NYSliderPopover.h */,
-				7B0550E51E287A6A001C37A4 /* NYSliderPopover.m */,
-			);
-			path = sliderView;
+			path = BlockUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -549,27 +485,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B0550E91E287A6A001C37A4 /* checkerboard@2x.png in Resources */,
-				7B0550F41E287A6A001C37A4 /* pickerColorWheel.png in Resources */,
-				7B0550E81E287A6A001C37A4 /* checkerboard.png in Resources */,
-				7B0550FE1E287A6A001C37A4 /* handleft_N@2x.png in Resources */,
-				7B0551001E287A6A001C37A4 /* handleft_Y@2x.png in Resources */,
-				7B0550F51E287A6A001C37A4 /* pickerColorWheel@2x.png in Resources */,
-				7B0550FD1E287A6A001C37A4 /* handleft_N.png in Resources */,
-				7B0550FC1E287A6A001C37A4 /* handleft@2x.png in Resources */,
 				7B05505D1E286AE7001C37A4 /* LaunchScreen.storyboard in Resources */,
-				7B0551011E287A6A001C37A4 /* handright.png in Resources */,
-				7B0551021E287A6A001C37A4 /* handright@2x.png in Resources */,
 				7B05505A1E286AE7001C37A4 /* Assets.xcassets in Resources */,
-				7B0551041E287A6A001C37A4 /* handright_N@2x.png in Resources */,
 				7B0550581E286AE7001C37A4 /* Main.storyboard in Resources */,
-				7B0550FB1E287A6A001C37A4 /* handleft.png in Resources */,
-				7B0551051E287A6A001C37A4 /* handright_Y.png in Resources */,
-				7B0551031E287A6A001C37A4 /* handright_N.png in Resources */,
-				7B0550EA1E287A6A001C37A4 /* colorPickerKnob.png in Resources */,
-				7B0550EB1E287A6A001C37A4 /* colorPickerKnob@2x.png in Resources */,
-				7B0550FF1E287A6A001C37A4 /* handleft_Y.png in Resources */,
-				7B0551061E287A6A001C37A4 /* handright_Y@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,39 +512,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B0551071E287A6A001C37A4 /* handschriftView.m in Sources */,
-				7B0551091E287A6A001C37A4 /* Palette.m in Sources */,
-				7B0550EE1E287A6A001C37A4 /* KZColorPicker.m in Sources */,
+				7B9D48B51E825D3600668DC7 /* UIColor+Extend.m in Sources */,
+				7B9D48AE1E825D3600668DC7 /* BlazeicePlist.m in Sources */,
+				7B9D48AF1E825D3600668DC7 /* BlazeiceUtils.m in Sources */,
+				7B9D48B11E825D3600668DC7 /* BlazeiceUIView.m in Sources */,
+				7B9D48B01E825D3600668DC7 /* BlazeiceUIControl.m in Sources */,
+				7B9D48BA1E825D3600668DC7 /* UncaughtExceptionHandler.m in Sources */,
 				7B0551171E288519001C37A4 /* movieDetailController.m in Sources */,
-				7B0550ED1E287A6A001C37A4 /* KZColorCompareView.m in Sources */,
-				7B05510D1E287A6A001C37A4 /* NYSliderPopover.m in Sources */,
 				7B0550551E286AE7001C37A4 /* ViewController.m in Sources */,
+				7B9D48AA1E825D3600668DC7 /* ACEDrawingView.m in Sources */,
+				7B9D48B71E825D3600668DC7 /* UIView+Curled.m in Sources */,
 				7B0551111E288465001C37A4 /* VideoListCell.m in Sources */,
 				7B0550A61E28710B001C37A4 /* VideoListController.m in Sources */,
 				7B05508E1E286BB1001C37A4 /* BlazeiceAudioRecordAndTransCoding.m in Sources */,
+				7B9D48B81E825D3600668DC7 /* UIView+UIImage.m in Sources */,
+				7B9D48B21E825D3600668DC7 /* KTouchPointerWindow.m in Sources */,
+				7B9D48AC1E825D3600668DC7 /* BlazeiceCurledViewBase.m in Sources */,
 				7B0551141E288473001C37A4 /* VideoInfo.m in Sources */,
-				7B0550F91E287A6A001C37A4 /* colorWidthBtn.m in Sources */,
-				7B05510C1E287A6A001C37A4 /* NYPopover.m in Sources */,
-				7B0550F11E287A6A001C37A4 /* KZColorPickerHSWheel.m in Sources */,
-				7B0550FA1E287A6A001C37A4 /* colorWidthView.m in Sources */,
-				7B0551081E287A6A001C37A4 /* handschriftViewEsayAnswer.m in Sources */,
-				7B05510A1E287A6A001C37A4 /* PaletteEsayAnswer.m in Sources */,
-				7B0550F31E287A6A001C37A4 /* KZUnitSlider.m in Sources */,
-				7B0550EC1E287A6A001C37A4 /* HSV.c in Sources */,
-				7B0550F61E287A6A001C37A4 /* UIColor-Expanded.m in Sources */,
-				7B0550F71E287A6A001C37A4 /* drawViewPaint.m in Sources */,
-				7B0550F01E287A6A001C37A4 /* KZColorPickerBrightnessSlider.m in Sources */,
-				7B05510E1E287A6A001C37A4 /* writeViewPaint.m in Sources */,
+				7B9D48AD1E825D3600668DC7 /* BlazeiceObject.m in Sources */,
+				7B9D48A91E825D3600668DC7 /* ACEDrawingTools.m in Sources */,
+				7B9D48B91E825D3600668DC7 /* UIView+ZXQuartz.m in Sources */,
 				7B0550521E286AE7001C37A4 /* AppDelegate.m in Sources */,
 				7B0550A31E286DF2001C37A4 /* WFCaptureUtilities.m in Sources */,
+				7B9D48AB1E825D3600668DC7 /* BlazeiceDooleView.m in Sources */,
 				7B05504F1E286AE7001C37A4 /* main.m in Sources */,
-				7B0550F21E287A6A001C37A4 /* KZColorPickerSwatchView.m in Sources */,
-				7B0550F81E287A6A001C37A4 /* centerBtn.m in Sources */,
+				7B9D48B31E825D3600668DC7 /* NSTimer+Blocks.m in Sources */,
 				7B05508F1E286BB1001C37A4 /* CGContextCreator.m in Sources */,
 				7B0550A21E286DF2001C37A4 /* WFCapture.m in Sources */,
-				7B0550EF1E287A6A001C37A4 /* KZColorPickerAlphaSlider.m in Sources */,
-				7B05510B1E287A6A001C37A4 /* showLinesView.m in Sources */,
+				7B9D48B61E825D3600668DC7 /* UIImage-Extensions.m in Sources */,
 				7B0550901E286BB1001C37A4 /* CGImageContainer.m in Sources */,
+				7B9D48BB1E825D3600668DC7 /* Utilities.m in Sources */,
+				7B9D48B41E825D3600668DC7 /* SRScreenRecorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,12 +692,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H7YSLUYKH2;
-				GCC_PREFIX_HEADER = /Users/wangfei/Documents/WFRecScreenDemo/WFRecScreenDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WFRecScreenDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = WFRecScreenDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-2.WFRecScreenDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -790,12 +707,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H7YSLUYKH2;
-				GCC_PREFIX_HEADER = /Users/wangfei/Documents/WFRecScreenDemo/WFRecScreenDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WFRecScreenDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = WFRecScreenDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-2.WFRecScreenDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -864,6 +782,7 @@
 				7B0550791E286AE8001C37A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B05507A1E286AE8001C37A4 /* Build configuration list for PBXNativeTarget "WFRecScreenDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -872,6 +791,7 @@
 				7B05507C1E286AE8001C37A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B05507D1E286AE8001C37A4 /* Build configuration list for PBXNativeTarget "WFRecScreenDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -880,6 +800,7 @@
 				7B05507F1E286AE8001C37A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,6 +18,12 @@
 #import <Foundation/Foundation.h>
 #import "ViewController.h"
 
+//2017-3-22
+#import "BlazeiceCommon.h"
+#import "BlazeiceDEBUG.h"
+
+#define KWidth  [[UIScreen mainScreen]bounds].size.width
+#define KHeight  [[UIScreen mainScreen]bounds].size.height
 #define viewWidth self.view.frame.size.width
 #define viewHeight self.view.frame.size.height
 #define contentViewWidth self.contentView.frame.size.width

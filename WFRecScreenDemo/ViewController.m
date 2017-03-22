@@ -14,8 +14,9 @@
 
 #define VEDIOPATH @"vedioPath"
 
+#import "BlazeiceDooleView.h"
 
-@interface ViewController ()<WFCaptureDelegate,AVAudioRecorderDelegate,BlazeiceAudioRecordAndTransCodingDelegate>
+@interface ViewController ()<WFCaptureDelegate,AVAudioRecorderDelegate,BlazeiceAudioRecordAndTransCodingDelegate,BlazeiceDooleViewDelegate>
 {
     BOOL isRecing;//正在录制中
     BOOL isPauseing;//正在暂停中
@@ -29,7 +30,8 @@
     int timeCount;
     UILabel * timelable;
     UIView * backView;
-    writeViewPaint *drawImageView;//手写板
+    BlazeiceDooleView *doodleView;
+
 }
 @end
 
@@ -244,17 +246,20 @@
 //画图区域
 -(void)setUpDrawView
 {
-    if (drawImageView) {
-        [drawImageView removeFromSuperview];
-        drawImageView =nil;
+  
+    if (doodleView) {
+        [doodleView removeFromSuperview];
+        doodleView =nil;
     }
     
-    drawImageView=[[writeViewPaint alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(backView.frame)+10, viewWidth,  viewHeight-CGRectGetMaxY(backView.frame)-10)];
-    
-    drawImageView.delegate=self;
-    drawImageView.backgroundColor=KSetColor(100, 170, 60);
-    drawImageView.colorResult =[UIColor whiteColor];
-    [self.view addSubview:drawImageView];
+    CGRect frame =CGRectMake(0, CGRectGetMaxY(backView.frame)+10, viewWidth,  viewHeight-CGRectGetMaxY(backView.frame)-10);
+    doodleView = [[BlazeiceDooleView alloc] initWithFrame:frame];
+    doodleView.delegate = self;
+    doodleView.drawView.formPush = YES;
+    [self.view addSubview:doodleView];
+    doodleView.drawView.lineColor =[UIColor blackColor];
+    doodleView.colorResult =[UIColor blackColor];;
+
 }
 
 //功能按钮
@@ -308,16 +313,48 @@
 {
     self.navigationController.navigationBar.tintColor = [UIColor clearColor];
     self.navigationController.navigationBar.barTintColor=MainColor;
+    
+    UIButton *leftBtn=[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 30)];
+    [leftBtn addTarget:self action:@selector(clearBtnClicked)forControlEvents:UIControlEventTouchUpInside ];
+    [leftBtn setTitle:@"清屏" forState:UIControlStateNormal];
+    [leftBtn.titleLabel setFont:[UIFont systemFontOfSize:15]];
+    UIBarButtonItem *leftBtnBarButon=[[UIBarButtonItem alloc]initWithCustomView:leftBtn];
+    self.navigationItem.leftBarButtonItem=leftBtnBarButon;
+    
     UIButton *rightBtn=[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 30)];
     [rightBtn addTarget:self action:@selector(VideoBtnClicked)forControlEvents:UIControlEventTouchUpInside ];
     [rightBtn setTitle:@"视频列表" forState:UIControlStateNormal];
     [rightBtn.titleLabel setFont:[UIFont systemFontOfSize:15]];
     UIBarButtonItem *rightBarButon=[[UIBarButtonItem alloc]initWithCustomView:rightBtn];
     self.navigationItem.rightBarButtonItem=rightBarButon;
+    
+   
+    
+    
     self.navigationController.navigationBar.titleTextAttributes=@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont boldSystemFontOfSize:18]};
     self.navigationItem.title=@"录制视频";
     
 }
+
+//清屏
+-(void)clearBtnClicked
+{
+    [doodleView clearBtnToRemoveAll];
+}
+
+//板擦
+-(void)scrubBtnClicked
+{
+    [doodleView esarBtnToChangeClear];
+}
+
+//撤销
+-(void)cancleBtnClicked
+{
+    [doodleView cancleBtnToBackForward];
+}
+
+
 
 //进入下级页面显示录制的视频
 -(void)VideoBtnClicked

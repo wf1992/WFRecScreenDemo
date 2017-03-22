@@ -22,6 +22,7 @@
 
 -(void)setUpUI
 {
+    //长按删除手势
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongPressGuesture:)];
     [self.contentView addGestureRecognizer:longPress];
     
