@@ -67,7 +67,8 @@
                 [imageArray addObject:image];
             }else
             {
-                UIImage * myimage=[UIImage imageNamed:@"default_video_poster"];
+                UIImage * myimage = [[UIImage alloc]init];
+                myimage=[UIImage imageNamed:@"default_video_poster.png"];
                 [imageArray addObject:myimage];
             }
         }

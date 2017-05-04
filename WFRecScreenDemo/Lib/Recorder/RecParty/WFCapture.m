@@ -135,6 +135,14 @@ static WFCapture *_screenRecorder;
             CGImageRef cgImage = CGImageCreateCopy(newImage);
             CFDataRef image = CGDataProviderCopyData(CGImageGetDataProvider(cgImage));
             
+//            NSLog(@"avAdaptor.pixelBufferPool  %@",avAdaptor.pixelBufferPool);
+            
+#warning    在此我做了进入后台就结束录屏的操作，但是这不是最好的方案，因为在进入后台之后 avAdaptor.pixelBufferPool 会被自动释放，再次进入之后就会崩溃
+            
+            //有2种思路，1、进入后台就结束录制，唤醒了继续录制，然后录制的视频融合成一个视频
+            //2、解决进入后台之后 avAdaptor.pixelBufferPool 会被自动释放的问题，但是avAdaptor.pixelBufferPool 是只读的，欢迎大牛帮忙 fix it.
+            
+            
             int status = CVPixelBufferPoolCreatePixelBuffer(kCFAllocatorDefault, avAdaptor.pixelBufferPool, &pixelBuffer);
             if(status != 0){
                 //could not get a buffer from the pool

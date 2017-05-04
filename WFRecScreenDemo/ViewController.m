@@ -39,10 +39,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(enterBackground)
+                                                 name:UIApplicationWillResignActiveNotification object:nil];
+    
     [self setUpNavi];
     [self setUpFunctionBtn];
     [self setUpDrawView];
 
+}
+
+//进入后台之后就结束此次录制
+-(void)enterBackground
+{
+    if (isRecing) {
+        [self stopAndSaveVideo];
+    }
 }
 
 
