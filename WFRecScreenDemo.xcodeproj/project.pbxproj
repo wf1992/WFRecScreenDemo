@@ -445,7 +445,7 @@
 				TargetAttributes = {
 					7B0550491E286AE7001C37A4 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = H7YSLUYKH2;
+						DevelopmentTeam = YS7E775QG2;
 						ProvisioningStyle = Automatic;
 					};
 					7B0550621E286AE8001C37A4 = {
@@ -691,7 +691,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H7YSLUYKH2;
+				DEVELOPMENT_TEAM = YS7E775QG2;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WFRecScreenDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = WFRecScreenDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -706,7 +706,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H7YSLUYKH2;
+				DEVELOPMENT_TEAM = YS7E775QG2;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WFRecScreenDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = WFRecScreenDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

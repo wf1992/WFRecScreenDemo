@@ -21,9 +21,10 @@ static NSInteger counter;
 
 #if !APPSTORE_SAFE
 CGImageRef UICreateCGImageFromIOSurface(CFTypeRef surface);
+//CFTypeRef --> IOSurfaceRef change
 CVReturn CVPixelBufferCreateWithIOSurface(
                                           CFAllocatorRef allocator,
-                                          CFTypeRef surface,
+                                          IOSurfaceRef surface,
                                           CFDictionaryRef pixelBufferAttributes,
                                           CVPixelBufferRef *pixelBufferOut);
 @interface UIWindow (ScreenRecorder)
